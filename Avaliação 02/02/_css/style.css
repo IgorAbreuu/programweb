@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+    font-size: 40px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+h2{
+	text-align: center;
+    font-size: 25px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+p{
+	text-align: center;
+}
+body{
+	text-align: center;
+	background-color: #d8bfd8;
+}
+#principal{
+	height: 500px;
+	width: 800px;
+	background-color: #d8bfd8;
+}
+#formulario{
+	padding: 15px;
+}
+fieldset{
+	font-size:20px;
+	border: 0.8px solid gray;
+	border-radius: 10px;
+	background-color: #D3D3D3;
+	box-shadow: 0 0 10px black;
+}
+label{
+	margin-left: 20px;
+	display: inline-block;
+	width: 100px;
+}
+input[type=text]{
+	width: 560px;
+	padding: 10px;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+#estado{
+	width: 560px;
+	padding: 10px;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+#texto{
+	width: 560px;
+	padding: 10px;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width: 280px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+input[type=reset]{
+	width: 280px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+input[type=submit]:hover{
+	box-shadow: 0px 0px 15px green;
+}
+input[type=reset]:hover{
+	box-shadow: 0px 0px 15px red;
+}
+#botoes{
+	text-align: center;
+}
+
+
+
