@@ -1,0 +1,15 @@
+body {
+    background-color: #d8bfd8;
+}
+h1{
+    text-align: center;
+	color: gray;
+	text-shadow: #000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+.ph{
+    text-align: center;
+	margin: 0;
+}
+a{
+	text-align: center;
+}
